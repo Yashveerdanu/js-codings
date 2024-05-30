@@ -19,3 +19,23 @@
 // refernce type or non-prmitive
 
 // arrays,objects, functions
+// **************************************************
+
+// stack (primitive),Heap (non-primitive)
+
+// let myname = "yashveerdanu"
+// let anothername = myname
+// anothername = "rajveer danu"
+// console.log(myname);
+// console.log(anothername);
+
+let userone = {
+    email: "yash@gmail.com",
+    name:"yash"
+}
+
+let usertwo = userone
+
+usertwo.email = "raj@gmail.com"
+console.log(usertwo);
+console.log(userone);
