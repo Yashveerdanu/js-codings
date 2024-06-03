@@ -1,2 +1,2 @@
 # js-codings
-A way of learning coding
+ aao coding seekhe 
