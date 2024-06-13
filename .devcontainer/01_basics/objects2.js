@@ -26,3 +26,15 @@ console.log(tinderuser);
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 console.log(tinderuser.hasOwnProperty('age'));
+
+// OBJECT DE-STRUCTURE
+const course = {
+    coursename  : "javascript",
+    courseId :  "123",
+    instructorname : "hitesh_sir",
+    price : "999"
+
+}
+
+const {coursename : name} = course
+console.log(name);
